@@ -1,5 +1,5 @@
 import { Blockquote } from "@chakra-ui/react"
-import Header from "@/components/header"
+import { Header } from "@/stories/Header"
 
 export default function About() {
   return (
