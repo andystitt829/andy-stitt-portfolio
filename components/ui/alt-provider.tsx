@@ -28,7 +28,7 @@ const config = defineConfig({
 
 const system = createSystem(defaultConfig, config)
 
-export function Provider(props: ColorModeProviderProps) {
+export function AltProvider(props: ColorModeProviderProps) {
   return (
     <ChakraProvider value={system}>
       <ColorModeProvider {...props} />
