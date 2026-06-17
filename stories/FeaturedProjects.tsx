@@ -45,6 +45,9 @@ export const FeaturedProjects = () => {
                 <Badge variant="solid">JavaScript</Badge>
               </List.Item>
               <List.Item>
+                <Badge variant="solid">Bootstrap</Badge>
+              </List.Item>
+              <List.Item>
                 <Badge variant="solid">WordPress</Badge>
               </List.Item>
               <List.Item>
@@ -68,6 +71,34 @@ export const FeaturedProjects = () => {
               websites that we manage.
             </Card.Description>
           </Card.Body>
+          <Card.Footer>
+            <List.Root
+              unstyled
+              display="flex"
+              flexDirection="row"
+              flexWrap="wrap"
+              gap="2"
+            >
+              <List.Item>
+                <Badge variant="solid">HTML</Badge>
+              </List.Item>
+              <List.Item>
+                <Badge variant="solid">CSS</Badge>
+              </List.Item>
+              <List.Item>
+                <Badge variant="solid">JavaScript</Badge>
+              </List.Item>
+              <List.Item>
+                <Badge variant="solid">Bootstrap</Badge>
+              </List.Item>
+              <List.Item>
+                <Badge variant="solid">WordPress</Badge>
+              </List.Item>
+              <List.Item>
+                <Badge variant="solid">Accessibility Testing</Badge>
+              </List.Item>
+            </List.Root>
+          </Card.Footer>
         </Card.Root>
         <Card.Root>
           <Card.Body gap="2">
@@ -81,6 +112,31 @@ export const FeaturedProjects = () => {
               websites that we manage.
             </Card.Description>
           </Card.Body>
+          <Card.Footer>
+            <List.Root
+              unstyled
+              display="flex"
+              flexDirection="row"
+              flexWrap="wrap"
+              gap="2"
+            >
+              <List.Item>
+                <Badge variant="solid">HTML</Badge>
+              </List.Item>
+              <List.Item>
+                <Badge variant="solid">CSS</Badge>
+              </List.Item>
+              <List.Item>
+                <Badge variant="solid">JavaScript</Badge>
+              </List.Item>
+              <List.Item>
+                <Badge variant="solid">Bootstrap</Badge>
+              </List.Item>
+              <List.Item>
+                <Badge variant="solid">WordPress</Badge>
+              </List.Item>
+            </List.Root>
+          </Card.Footer>
         </Card.Root>
         <Card.Root>
           <Card.Body gap="2">
@@ -94,6 +150,31 @@ export const FeaturedProjects = () => {
               websites that we manage.
             </Card.Description>
           </Card.Body>
+          <Card.Footer>
+            <List.Root
+              unstyled
+              display="flex"
+              flexDirection="row"
+              flexWrap="wrap"
+              gap="2"
+            >
+              <List.Item>
+                <Badge variant="solid">HTML</Badge>
+              </List.Item>
+              <List.Item>
+                <Badge variant="solid">Tailwind CSS</Badge>
+              </List.Item>
+              <List.Item>
+                <Badge variant="solid">JavaScript</Badge>
+              </List.Item>
+              <List.Item>
+                <Badge variant="solid">Astro</Badge>
+              </List.Item>
+              <List.Item>
+                <Badge variant="solid">Airtable</Badge>
+              </List.Item>
+            </List.Root>
+          </Card.Footer>
         </Card.Root>
         <Card.Root>
           <Card.Body gap="2">
@@ -107,6 +188,37 @@ export const FeaturedProjects = () => {
               websites that we manage.
             </Card.Description>
           </Card.Body>
+          <Card.Footer>
+            <List.Root
+              unstyled
+              display="flex"
+              flexDirection="row"
+              flexWrap="wrap"
+              gap="2"
+            >
+              <List.Item>
+                <Badge variant="solid">HTML</Badge>
+              </List.Item>
+              <List.Item>
+                <Badge variant="solid">Tailwind CSS</Badge>
+              </List.Item>
+              <List.Item>
+                <Badge variant="solid">JavaScript</Badge>
+              </List.Item>
+              <List.Item>
+                <Badge variant="solid">Sveltekit</Badge>
+              </List.Item>
+              <List.Item>
+                <Badge variant="solid">Bits UI</Badge>
+              </List.Item>
+              <List.Item>
+                <Badge variant="solid">Docker</Badge>
+              </List.Item>
+              <List.Item>
+                <Badge variant="solid">Postgres</Badge>
+              </List.Item>
+            </List.Root>
+          </Card.Footer>
         </Card.Root>
       </SimpleGrid>
     </Container>
