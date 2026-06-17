@@ -85,7 +85,7 @@ export const FeaturedProjects = () => {
         <Card.Root>
           <Card.Body gap="2">
             <Card.Title>
-              <Link href="#" variant="underline">
+              <Link href="/mutual-aid-in-philly/" variant="underline">
                 Mutual Aid in Philly
               </Link>
             </Card.Title>
@@ -98,7 +98,7 @@ export const FeaturedProjects = () => {
         <Card.Root>
           <Card.Body gap="2">
             <Card.Title>
-              <Link href="#" variant="underline">
+              <Link href="/turfbuilder/" variant="underline">
                 Turfbuilder
               </Link>
             </Card.Title>
