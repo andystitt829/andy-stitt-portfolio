@@ -1,16 +1,24 @@
-import { Card, Container, Heading, Link, SimpleGrid } from "@chakra-ui/react";
+import {
+  Badge,
+  Card,
+  Container,
+  Heading,
+  Link,
+  List,
+  SimpleGrid,
+} from "@chakra-ui/react";
 
 export const FeaturedProjects = () => {
   return (
-    <Container p="8">
-      <Heading as="h2" size="2xl" py="8">
+    <Container py="8" px="12">
+      <Heading as="h2" size="2xl">
         Featured Projects
       </Heading>
-      <SimpleGrid minChildWidth="12rem" gap="20px">
+      <SimpleGrid minChildWidth="12rem" gap="20px" pt="12">
         <Card.Root>
           <Card.Body gap="2">
             <Card.Title>
-              <Link href="#" variant="underline">
+              <Link href="/delawares-first-design-system/" variant="underline">
                 Delaware's First Design System
               </Link>
             </Card.Title>
@@ -19,11 +27,39 @@ export const FeaturedProjects = () => {
               Lighthouse.
             </Card.Description>
           </Card.Body>
+          <Card.Footer>
+            <List.Root
+              unstyled
+              display="flex"
+              flexDirection="row"
+              flexWrap="wrap"
+              gap="2"
+            >
+              <List.Item>
+                <Badge variant="solid">HTML</Badge>
+              </List.Item>
+              <List.Item>
+                <Badge variant="solid">SASS</Badge>
+              </List.Item>
+              <List.Item>
+                <Badge variant="solid">JavaScript</Badge>
+              </List.Item>
+              <List.Item>
+                <Badge variant="solid">WordPress</Badge>
+              </List.Item>
+              <List.Item>
+                <Badge variant="solid">Storybook</Badge>
+              </List.Item>
+            </List.Root>
+          </Card.Footer>
         </Card.Root>
         <Card.Root>
           <Card.Body gap="2">
             <Card.Title>
-              <Link href="#" variant="underline">
+              <Link
+                href="/delaware-accessibility-transformation/"
+                variant="underline"
+              >
                 Delaware Accessibility Transformation
               </Link>
             </Card.Title>
@@ -36,7 +72,7 @@ export const FeaturedProjects = () => {
         <Card.Root>
           <Card.Body gap="2">
             <Card.Title>
-              <Link href="#" variant="underline">
+              <Link href="/delaware-covid-19-website/" variant="underline">
                 Delaware COVID-19 Website
               </Link>
             </Card.Title>

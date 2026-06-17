@@ -6,7 +6,8 @@ export const Header = () => (
     flexDirection={{ base: "column", md: "row" }}
     alignItems={{ base: "center", md: "flex-start" }}
     gap="2"
-    p="8"
+    py="8"
+    px="12"
   >
     <Link href="/">Andy Stitt</Link>
     <Spacer />
