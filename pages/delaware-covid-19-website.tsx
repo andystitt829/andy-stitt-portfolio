@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { Prose } from "@/components/ui/prose";
 import { Header } from "@/stories/Header";
+import { Footer } from "@/stories/Footer";
 
 export default function DelawareCOVIDWebsite() {
   return (
@@ -32,6 +33,7 @@ export default function DelawareCOVIDWebsite() {
           alt="Screenshot of the Delaware COVID-19 information website."
         />
       </Prose>
+      <Footer />
     </>
   );
 }

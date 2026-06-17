@@ -2,6 +2,7 @@ import Head from "next/head";
 import { Container, Heading, Text } from "@chakra-ui/react";
 import { Header } from "@/stories/Header";
 import { FeaturedProjects } from "@/stories/FeaturedProjects";
+import { Footer } from "@/stories/Footer";
 
 export default function Page() {
   return (
@@ -31,6 +32,7 @@ export default function Page() {
         </Container>
         <FeaturedProjects />
       </main>
+      <Footer />
     </>
   );
 }

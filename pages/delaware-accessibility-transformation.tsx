@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { Prose } from "@/components/ui/prose";
 import { Header } from "@/stories/Header";
+import { Footer } from "@/stories/Footer";
 
 export default function DelawareAccessibilityTransformation() {
   return (
@@ -39,6 +40,7 @@ export default function DelawareAccessibilityTransformation() {
           HTML, CSS, and JavaScript.
         </p>
       </Prose>
+      <Footer />
     </>
   );
 }

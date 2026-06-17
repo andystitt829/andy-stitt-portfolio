@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { Prose } from "@/components/ui/prose";
 import { Header } from "@/stories/Header";
+import { Footer } from "@/stories/Footer";
 
 export default function DelawaresFirstDesignSystem() {
   return (
@@ -47,6 +48,7 @@ export default function DelawaresFirstDesignSystem() {
           alt="Screenshot of Delaware's Lighthouse design system documentation in Storybook."
         />
       </Prose>
+      <Footer />
     </>
   );
 }

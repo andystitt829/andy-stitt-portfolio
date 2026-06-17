@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { Prose } from "@/components/ui/prose";
 import { Header } from "@/stories/Header";
+import { Footer } from "@/stories/Footer";
 
 export default function TurfBuilder() {
   return (
@@ -12,8 +13,8 @@ export default function TurfBuilder() {
       <Prose mx="auto" px={{ base: "8", lg: "0" }} size="lg" maxW="75ch">
         <h1>TurfBuilder</h1>
         <p>
-          This is a collaborative project that I started working on through a
-          local anti-ICE group.
+          This is a collaborative project that I started working on through
+          local political organizing.
         </p>
         <p>
           TurfBuilder is an open-source tool that helps groups of people
@@ -32,6 +33,7 @@ export default function TurfBuilder() {
           </a>
         </p>
       </Prose>
+      <Footer />
     </>
   );
 }

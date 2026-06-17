@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { Prose } from "@/components/ui/prose";
 import { Header } from "@/stories/Header";
+import { Footer } from "@/stories/Footer";
 
 export default function MutualAidInPhilly() {
   return (
@@ -43,6 +44,7 @@ export default function MutualAidInPhilly() {
           alt="Screenshot of the Mutual Aid in Philly website."
         />
       </Prose>
+      <Footer />
     </>
   );
 }

@@ -3,6 +3,7 @@ import { Container, Heading } from "@chakra-ui/react";
 import { Header } from "@/stories/Header";
 import { CareerTimeline } from "@/stories/CareerTimeline";
 import { FeaturedProjects } from "@/stories/FeaturedProjects";
+import { Footer } from "@/stories/Footer";
 
 export default function Work() {
   return (
@@ -18,6 +19,7 @@ export default function Work() {
       </Container>
       <CareerTimeline />
       <FeaturedProjects />
+      <Footer />
     </>
   );
 }

@@ -1,4 +1,11 @@
-import { Box, Flex, Icon, Link, Spacer } from "@chakra-ui/react";
+import {
+  Box,
+  Flex,
+  Icon,
+  Link,
+  Spacer,
+  VisuallyHidden,
+} from "@chakra-ui/react";
 import { DiGithubBadge } from "react-icons/di";
 import { FaLinkedin } from "react-icons/fa";
 
@@ -21,14 +28,20 @@ export const Header = () => (
         <Link href="/contact/">Contact</Link>
       </Box>
       <Box as="li">
-        <Icon size="lg">
-          <DiGithubBadge />
-        </Icon>
+        <Link href="https://github.com/andystitt829">
+          <Icon size="lg">
+            <DiGithubBadge />
+          </Icon>
+          <VisuallyHidden>Github</VisuallyHidden>
+        </Link>
       </Box>
       <Box as="li">
-        <Icon size="lg">
-          <FaLinkedin />
-        </Icon>
+        <Link href="https://www.linkedin.com/in/andrewstitt">
+          <Icon size="lg">
+            <FaLinkedin />
+          </Icon>
+          <VisuallyHidden>LinkedIn</VisuallyHidden>
+        </Link>
       </Box>
     </Flex>
   </Flex>
