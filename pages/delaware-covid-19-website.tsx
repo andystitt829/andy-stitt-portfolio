@@ -10,7 +10,14 @@ export default function DelawareCOVIDWebsite() {
         <title>Delaware COVID-19 Website</title>
       </Head>
       <Header />
-      <Prose mx="auto" px={{ base: "8", lg: "0" }} pt="8" size="lg" maxW="75ch">
+      <Prose
+        mx="auto"
+        px={{ base: "8", lg: "0" }}
+        pt="8"
+        size="lg"
+        maxW="75ch"
+        as="main"
+      >
         <h1>Delaware COVID-19 Website</h1>
         <p>
           I started working for the State of Delaware in early February 2020.

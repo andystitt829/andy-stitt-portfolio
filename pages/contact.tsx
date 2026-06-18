@@ -10,7 +10,7 @@ export default function Contact() {
         <title>Contact</title>
       </Head>
       <Header />
-      <Container p="8">
+      <Container p="8" as="main">
         <Heading as="h1" size="3xl">
           Contact
         </Heading>

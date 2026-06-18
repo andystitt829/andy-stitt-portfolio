@@ -10,7 +10,14 @@ export default function MutualAidInPhilly() {
         <title>Mutual Aid in Philly</title>
       </Head>
       <Header />
-      <Prose mx="auto" px={{ base: "8", lg: "0" }} pt="8" size="lg" maxW="75ch">
+      <Prose
+        mx="auto"
+        px={{ base: "8", lg: "0" }}
+        pt="8"
+        size="lg"
+        maxW="75ch"
+        as="main"
+      >
         <h1>Mutual Aid in Philly</h1>
         <p>
           This is a personal project that I took on and built for the people of

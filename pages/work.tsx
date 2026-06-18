@@ -12,13 +12,15 @@ export default function Work() {
         <title>Work</title>
       </Head>
       <Header />
-      <Container p="8">
-        <Heading as="h1" size="3xl">
-          Work
-        </Heading>
-      </Container>
-      <CareerTimeline />
-      <FeaturedProjects />
+      <main>
+        <Container p="8">
+          <Heading as="h1" size="3xl">
+            Work
+          </Heading>
+        </Container>
+        <CareerTimeline />
+        <FeaturedProjects />
+      </main>
       <Footer />
     </>
   );

@@ -10,7 +10,14 @@ export default function TurfBuilder() {
         <title>TurfBuilder</title>
       </Head>
       <Header />
-      <Prose mx="auto" px={{ base: "8", lg: "0" }} pt="8" size="lg" maxW="75ch">
+      <Prose
+        mx="auto"
+        px={{ base: "8", lg: "0" }}
+        pt="8"
+        size="lg"
+        maxW="75ch"
+        as="main"
+      >
         <h1>TurfBuilder</h1>
         <p>
           This is a collaborative project that I started working on through
