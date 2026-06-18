@@ -2,7 +2,7 @@ import { Container, Heading, List, Text, Timeline } from "@chakra-ui/react";
 import { LuBriefcase } from "react-icons/lu";
 
 export const CareerTimeline = () => (
-  <Container px="8">
+  <Container px="8" as="main">
     <Heading as="h2" size="2xl" pt="4" pb="8">
       Career Timeline
     </Heading>
