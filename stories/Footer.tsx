@@ -1,7 +1,13 @@
 import { Box, Flex, Heading, Link, List, Spacer, Text } from "@chakra-ui/react";
 
 export const Footer = () => (
-  <Flex flexDirection={{ base: "column", lg: "row" }} gap="5" py="8" px="12">
+  <Flex
+    flexDirection={{ base: "column", lg: "row" }}
+    gap="5"
+    py="8"
+    px="12"
+    as="footer"
+  >
     <Box>
       <Heading as="h2" size="lg" mb="2">
         Pages
