@@ -10,7 +10,7 @@ export default function DelawaresFirstDesignSystem() {
         <title>Delaware's First Design System</title>
       </Head>
       <Header />
-      <Prose mx="auto" px={{ base: "8", lg: "0" }} size="lg" maxW="75ch">
+      <Prose mx="auto" px={{ base: "8", lg: "0" }} pt="8" size="lg" maxW="75ch">
         <h1>Delaware's First Design System</h1>
         <p>
           My team at work created Delaware’s first design system called{" "}

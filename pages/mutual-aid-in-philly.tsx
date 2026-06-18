@@ -10,17 +10,16 @@ export default function MutualAidInPhilly() {
         <title>Mutual Aid in Philly</title>
       </Head>
       <Header />
-      <Prose mx="auto" px={{ base: "8", lg: "0" }} size="lg" maxW="75ch">
+      <Prose mx="auto" px={{ base: "8", lg: "0" }} pt="8" size="lg" maxW="75ch">
         <h1>Mutual Aid in Philly</h1>
         <p>
           This is a personal project that I took on and built for the people of
           my city.
         </p>
         <p>
-          As we experience multiple global crises, including climate change,
-          systems that we have come to rely on will falter and fail. We are
-          creating a new world where our systems are built to unite us and take
-          care of each other.
+          We are in a moment of global change in response to multiple crises,
+          including climate change. We are creating a new world where our
+          systems are built to unite us and take care of each other.
         </p>
         <p>
           <a href="https://mutual-aid-in-philly.netlify.app/">

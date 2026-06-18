@@ -6,7 +6,7 @@ export const Footer = () => (
       <Heading as="h2" size="lg" mb="2">
         Pages
       </Heading>
-      <List.Root unstyled>
+      <List.Root unstyled display="flex" flexDirection="column" gap="2">
         <List.Item>
           <Link href="/" variant="underline">
             Home
@@ -29,7 +29,7 @@ export const Footer = () => (
       <Heading as="h2" size="lg" mb="2">
         Featured Projects
       </Heading>
-      <List.Root unstyled>
+      <List.Root unstyled display="flex" flexDirection="column" gap="2">
         <List.Item>
           <Link href="/delawares-first-design-system/" variant="underline">
             Delaware's First Design System

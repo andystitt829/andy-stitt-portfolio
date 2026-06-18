@@ -108,8 +108,8 @@ export const FeaturedProjects = () => {
               </Link>
             </Card.Title>
             <Card.Description>
-              My team started auditing and remediating Delaware state agency
-              websites that we manage.
+              I helped build and manage the Delaware COVID-19 information
+              website.
             </Card.Description>
           </Card.Body>
           <Card.Footer>
@@ -146,8 +146,8 @@ export const FeaturedProjects = () => {
               </Link>
             </Card.Title>
             <Card.Description>
-              My team started auditing and remediating Delaware state agency
-              websites that we manage.
+              This is a personal project that I took on and built for the people
+              of my city.
             </Card.Description>
           </Card.Body>
           <Card.Footer>
@@ -184,8 +184,8 @@ export const FeaturedProjects = () => {
               </Link>
             </Card.Title>
             <Card.Description>
-              My team started auditing and remediating Delaware state agency
-              websites that we manage.
+              This is a collaborative project that I started working on through
+              local political organizing.
             </Card.Description>
           </Card.Body>
           <Card.Footer>

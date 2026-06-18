@@ -10,7 +10,7 @@ export default function DelawareAccessibilityTransformation() {
         <title>Delaware Accessibility Transformation</title>
       </Head>
       <Header />
-      <Prose mx="auto" px={{ base: "8", lg: "0" }} size="lg" maxW="75ch">
+      <Prose mx="auto" px={{ base: "8", lg: "0" }} pt="8" size="lg" maxW="75ch">
         <h1>Delaware Accessibility Transformation</h1>
         <p>
           The COVID-19 shutdowns forced everyone to stay home and do everything

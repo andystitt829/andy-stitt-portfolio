@@ -10,17 +10,17 @@ export default function TurfBuilder() {
         <title>TurfBuilder</title>
       </Head>
       <Header />
-      <Prose mx="auto" px={{ base: "8", lg: "0" }} size="lg" maxW="75ch">
+      <Prose mx="auto" px={{ base: "8", lg: "0" }} pt="8" size="lg" maxW="75ch">
         <h1>TurfBuilder</h1>
         <p>
           This is a collaborative project that I started working on through
           local political organizing.
         </p>
         <p>
-          TurfBuilder is an open-source tool that helps groups of people
-          organize canvassing operations. It is inspired by NGP Minivan, a
-          canvassing tool used by the Democratic Party and other progressive
-          organizations.
+          <a href="https://turfbuilder.org/">TurfBuilder</a> is an open-source
+          tool that helps groups of people organize canvassing operations. It is
+          inspired by NGP Minivan, a canvassing tool used by the Democratic
+          Party and other progressive organizations.
         </p>
         <p>
           This app is built using Sveltekit, Bits UI, Docker, a Postgres
