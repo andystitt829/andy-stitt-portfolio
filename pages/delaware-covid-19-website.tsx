@@ -21,9 +21,12 @@ export default function DelawareCOVIDWebsite() {
         <h1>Delaware COVID-19 Website</h1>
         <p>
           I started working for the State of Delaware in early February 2020.
-          Three weeks later, we were tasked with designing and developing a
-          COVID-19 information site that could be used by the state health and
-          emergency management departments as well as the Governor’s office.
+          Three weeks later, we were tasked with designing and developing a{" "}
+          <a href="https://coronavirus.delaware.gov">
+            COVID-19 information site
+          </a>{" "}
+          that could be used by the state health and emergency management
+          departments as well as the Governor’s office.
         </p>
         <p>
           I started the process by building a wireframe of the homepage and
