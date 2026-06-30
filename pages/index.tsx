@@ -12,7 +12,12 @@ export default function Page() {
       </Head>
       <Header />
       <main>
-        <Container py={{ base: "4", md: "8" }} px="12">
+        <Container
+          py={{ base: "4", md: "8" }}
+          px="12"
+          maxW="85ch"
+          marginLeft="0"
+        >
           <Heading as="h1" size="3xl">
             Software Engineer
           </Heading>
