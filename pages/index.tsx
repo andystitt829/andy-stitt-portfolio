@@ -15,20 +15,21 @@ export default function Page() {
         <Container
           py={{ base: "4", md: "8" }}
           px="12"
-          maxW="85ch"
+          maxW="95ch"
           marginLeft="0"
         >
           <Heading as="h1" size="3xl">
             Software Engineer
           </Heading>
           <Text>
-            I have been in the "tech for good" space since 2008. I've held
-            various roles in digital marketing with web development as my focus.
+            I have been in the &quot;tech for good&quot; space since 2008.
+            I&apos;ve held various roles in digital marketing with web
+            development as my focus.
           </Text>
           <Text>
-            After spending over a decade working for non-profits, I've been in
-            state government building and maintaining websites and digital
-            products, such as Delaware's first design system.
+            After spending over a decade working for non-profits, I&apos;ve been
+            in state government building and maintaining websites and digital
+            products, such as Delaware&apos;s first design system.
           </Text>
           <Text>
             I specialize in front-end engineering, accessibility, and
